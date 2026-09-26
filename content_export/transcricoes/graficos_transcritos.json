@@ -1,0 +1,1865 @@
+{
+ "origem": "transcrito manualmente a partir das imagens dos gráficos do .docx (rótulos de dados impressos)",
+ "status": "a_conferir",
+ "graficos": {
+  "grafico-01": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Número de IES",
+     "valores": [
+      18,
+      18,
+      20,
+      27,
+      35,
+      39,
+      39,
+      42,
+      45,
+      50,
+      51
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-02": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Total de ingressantes com financiamento do FIES",
+     "valores": [
+      917980,
+      762617,
+      724138,
+      853820,
+      971821,
+      1128053,
+      1284877,
+      1256106,
+      1474850,
+      1565887,
+      1486565
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-03": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Total de ingressantes pelo financiamento do ProUni",
+     "valores": [
+      162159,
+      179610,
+      176562,
+      180462,
+      181501,
+      179827,
+      131033,
+      88059,
+      120035,
+      130113,
+      139361
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-04": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Total de ingressantes cotistas",
+     "valores": [
+      1390304,
+      1505044,
+      1791689,
+      1916137,
+      2094907,
+      2067691,
+      1964364,
+      1927719,
+      2334142,
+      2327901,
+      2734544
+     ]
+    }
+   ],
+   "observacoes": [
+    "No eixo do original, o 4º ano aparece como \"2027\"; interpretado como 2017."
+   ]
+  },
+  "grafico-05": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": "%",
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Taxa Bruta de matrículas na graduação",
+     "valores": [
+      31.8,
+      33.5,
+      34.6,
+      33.6,
+      36.3,
+      36.2,
+      38.5,
+      40.5,
+      42.9
+     ]
+    },
+    {
+     "nome": "Meta",
+     "valores": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+     ]
+    }
+   ],
+   "observacoes": [
+    "O original não traz 2020 e 2021."
+   ]
+  },
+  "grafico-06": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": "%",
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Taxa líquida de matrículas",
+     "valores": [
+      21.2,
+      21.9,
+      23.1,
+      22.4,
+      24.3,
+      24.7,
+      25.0,
+      25.9,
+      27.1
+     ]
+    },
+    {
+     "nome": "Meta",
+     "valores": [
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33
+     ]
+    }
+   ],
+   "observacoes": [
+    "O original não traz 2020 e 2021."
+   ]
+  },
+  "grafico-07": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": "%",
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Matrículas públicas",
+     "valores": [
+      8.1,
+      5.5,
+      9.2,
+      11.8,
+      12.7,
+      11.7,
+      3.6,
+      9.3,
+      7.4,
+      5.8,
+      5.3
+     ]
+    },
+    {
+     "nome": "Meta",
+     "valores": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40,
+      40
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-08": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": "%",
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Docentes com Mestrado e Doutorado",
+     "valores": [
+      73.5,
+      75.6,
+      77.6,
+      79.7,
+      81.5,
+      82.6,
+      83.8,
+      84.3,
+      84.6,
+      84.9,
+      84.8
+     ]
+    },
+    {
+     "nome": "Meta",
+     "valores": [
+      75,
+      75,
+      75,
+      75,
+      75,
+      75,
+      75,
+      75,
+      75,
+      75,
+      75
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-09": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": "%",
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Docentes com Doutorado",
+     "valores": [
+      35.6,
+      37.3,
+      39.9,
+      42.2,
+      44.2,
+      46.1,
+      48.9,
+      50.8,
+      52.1,
+      53.1,
+      53.9
+     ]
+    },
+    {
+     "nome": "Meta",
+     "valores": [
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-10": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+   ],
+   "series": [
+    {
+     "nome": "Número de Títulos de Mestrado Concedidos",
+     "valores": [
+      53212,
+      56667,
+      59614,
+      63254,
+      66993,
+      70071,
+      60039,
+      61138,
+      59374,
+      66293
+     ]
+    },
+    {
+     "nome": "Meta",
+     "valores": [
+      60000,
+      60000,
+      60000,
+      60000,
+      60000,
+      60000,
+      60000,
+      60000,
+      60000,
+      60000
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-11": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+   ],
+   "series": [
+    {
+     "nome": "Número de Títulos de Doutorado Concedidos",
+     "valores": [
+      17286,
+      18996,
+      20603,
+      22056,
+      23476,
+      24432,
+      20075,
+      21100,
+      22993,
+      25170
+     ]
+    },
+    {
+     "nome": "Meta",
+     "valores": [
+      25000,
+      25000,
+      25000,
+      25000,
+      25000,
+      25000,
+      25000,
+      25000,
+      25000,
+      25000
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-12": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Públicas Federais",
+     "valores": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "nome": "Públicas Estaduais",
+     "valores": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "nome": "Privadas com fins lucrativos",
+     "valores": [
+      4,
+      4,
+      7,
+      9,
+      16,
+      19,
+      22,
+      25,
+      29,
+      34,
+      35
+     ]
+    },
+    {
+     "nome": "Privadas sem fins lucrativos",
+     "valores": [
+      7,
+      9,
+      8,
+      14,
+      15,
+      16,
+      14,
+      14,
+      13,
+      13,
+      13
+     ]
+    },
+    {
+     "nome": "Especial",
+     "valores": [
+      3,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "nome": "Total",
+     "valores": [
+      18,
+      18,
+      20,
+      27,
+      35,
+      39,
+      39,
+      42,
+      45,
+      50,
+      51
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-13": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Universidades",
+     "valores": [
+      10,
+      10,
+      11,
+      13,
+      17,
+      18,
+      16,
+      15,
+      15,
+      14,
+      15
+     ]
+    },
+    {
+     "nome": "Centros",
+     "valores": [
+      2,
+      2,
+      3,
+      7,
+      10,
+      13,
+      14,
+      18,
+      21,
+      27,
+      27
+     ]
+    },
+    {
+     "nome": "Faculdades",
+     "valores": [
+      5,
+      5,
+      5,
+      6,
+      7,
+      7,
+      8,
+      8,
+      8,
+      8,
+      8
+     ]
+    },
+    {
+     "nome": "Institutos Federais",
+     "valores": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "nome": "Total",
+     "valores": [
+      18,
+      18,
+      20,
+      27,
+      35,
+      39,
+      39,
+      42,
+      45,
+      50,
+      51
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-14": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Presencial",
+     "valores": [
+      9,
+      9,
+      9,
+      10,
+      10,
+      10,
+      10,
+      11,
+      11,
+      11,
+      11
+     ]
+    },
+    {
+     "nome": "EaD",
+     "valores": [
+      10,
+      10,
+      13,
+      20,
+      29,
+      34,
+      32,
+      35,
+      38,
+      43,
+      45
+     ]
+    },
+    {
+     "nome": "Ambas",
+     "valores": [
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      4,
+      4,
+      4,
+      5
+     ]
+    },
+    {
+     "nome": "Total",
+     "valores": [
+      18,
+      18,
+      20,
+      27,
+      35,
+      39,
+      39,
+      42,
+      45,
+      50,
+      51
+     ]
+    }
+   ],
+   "observacoes": [
+    "Total = Presencial + EaD − Ambas (IES que ofertam as duas modalidades aparecem nas duas séries)."
+   ]
+  },
+  "grafico-15": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Licenciatura",
+     "valores": [
+      55,
+      59,
+      67,
+      93,
+      140,
+      150,
+      163,
+      189,
+      212,
+      221,
+      253
+     ]
+    },
+    {
+     "nome": "Bacharelado",
+     "valores": [
+      79,
+      88,
+      99,
+      124,
+      162,
+      195,
+      250,
+      295,
+      384,
+      409,
+      466
+     ]
+    },
+    {
+     "nome": "Tecnológico",
+     "valores": [
+      83,
+      92,
+      102,
+      164,
+      219,
+      273,
+      338,
+      410,
+      553,
+      578,
+      643
+     ]
+    },
+    {
+     "nome": "Total Cursos",
+     "valores": [
+      217,
+      239,
+      268,
+      381,
+      521,
+      618,
+      751,
+      894,
+      1152,
+      1210,
+      1365
+     ]
+    }
+   ],
+   "observacoes": [
+    "Valores lidos da tabela impressa sob o gráfico. Em 2022, 2023 e 2024 a soma dos três graus (1.149, 1.208, 1.362) é 3 menor que o Total do original; mantido como no original."
+   ]
+  },
+  "grafico-16": {
+   "tipo": "area",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Pública",
+     "valores": [
+      92,
+      31,
+      32,
+      19,
+      20,
+      19,
+      16,
+      17,
+      17,
+      18,
+      19
+     ]
+    },
+    {
+     "nome": "Privada",
+     "valores": [
+      125,
+      208,
+      236,
+      362,
+      501,
+      599,
+      735,
+      877,
+      1135,
+      1192,
+      1346
+     ]
+    },
+    {
+     "nome": "Total Cursos",
+     "valores": [
+      217,
+      239,
+      268,
+      381,
+      521,
+      618,
+      751,
+      894,
+      1152,
+      1210,
+      1365
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-17": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Públicas Estaduais",
+     "valores": [
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      4
+     ]
+    },
+    {
+     "nome": "Públicas Federais",
+     "valores": [
+      17,
+      17,
+      16,
+      16,
+      17,
+      16,
+      14,
+      14,
+      14,
+      15,
+      15
+     ]
+    },
+    {
+     "nome": "Privadas sem fins lucrativos",
+     "valores": [
+      74,
+      136,
+      135,
+      201,
+      174,
+      175,
+      194,
+      217,
+      217,
+      168,
+      182
+     ]
+    },
+    {
+     "nome": "Privadas com fins lucrativos",
+     "valores": [
+      51,
+      72,
+      101,
+      161,
+      327,
+      424,
+      541,
+      660,
+      918,
+      1024,
+      1164
+     ]
+    }
+   ],
+   "observacoes": [
+    "Valores lidos da tabela impressa sob o gráfico."
+   ]
+  },
+  "grafico-18": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Presencial",
+     "valores": [
+      98,
+      98,
+      100,
+      99,
+      96,
+      100,
+      98,
+      104,
+      108,
+      111,
+      110
+     ]
+    },
+    {
+     "nome": "EaD",
+     "valores": [
+      119,
+      141,
+      168,
+      282,
+      425,
+      518,
+      653,
+      790,
+      1044,
+      1099,
+      1255
+     ]
+    },
+    {
+     "nome": "Total Cursos",
+     "valores": [
+      217,
+      239,
+      268,
+      381,
+      521,
+      618,
+      751,
+      894,
+      1152,
+      1210,
+      1365
+     ]
+    }
+   ],
+   "observacoes": [
+    "Rótulo de EaD em 2014 aparece parcialmente encoberto no original; 119 confere com Total − Presencial."
+   ]
+  },
+  "grafico-19": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Matrículas Presencial",
+     "valores": [
+      14599,
+      14971,
+      14778,
+      14733,
+      14852,
+      15199,
+      13998,
+      13815,
+      12473,
+      14333,
+      15361
+     ]
+    },
+    {
+     "nome": "Matrículas EaD",
+     "valores": [
+      3011,
+      3261,
+      3727,
+      4276,
+      5219,
+      6349,
+      7983,
+      9585,
+      11446,
+      11649,
+      10967
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-20": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Ingressos Presencial",
+     "valores": [
+      5222,
+      5184,
+      4942,
+      4723,
+      4865,
+      4871,
+      3803,
+      3755,
+      3757,
+      5801,
+      5229
+     ]
+    },
+    {
+     "nome": "Ingressos EaD",
+     "valores": [
+      1561,
+      1551,
+      2169,
+      2825,
+      3536,
+      3962,
+      5328,
+      6752,
+      8334,
+      7621,
+      7393
+     ]
+    }
+   ],
+   "observacoes": []
+  },
+  "grafico-21": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Concluintes Presencial",
+     "valores": [
+      1658,
+      857,
+      930,
+      998,
+      1191,
+      1321,
+      1153,
+      1200,
+      1046,
+      1258,
+      1197
+     ]
+    },
+    {
+     "nome": "Concluintes EaD",
+     "valores": [
+      563,
+      571,
+      591,
+      697,
+      886,
+      948,
+      1109,
+      1206,
+      961,
+      1403,
+      1384
+     ]
+    }
+   ],
+   "observacoes": [
+    "Atenção: de 2015 a 2024 a série 'Concluintes Presencial' é idêntica a 'Concluintes Masculino' do Gráfico 27, e Presencial + EaD não bate com o total de concluintes dos Gráficos 24 e 27 (ex.: 2015 = 1.428 × 2.400). Possível erro no gráfico original; conferir com a planilha."
+   ]
+  },
+  "grafico-22": {
+   "tipo": "barra",
+   "orientacao": "horizontal",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Matrículas Privada com fins lucrativos",
+     "valores": [
+      3898,
+      4362,
+      4794,
+      5361,
+      6255,
+      7339,
+      9043,
+      10657,
+      12480,
+      12791,
+      12079
+     ]
+    },
+    {
+     "nome": "Matrículas Privada sem fins lucrativos",
+     "valores": [
+      599,
+      10199,
+      10007,
+      10046,
+      10188,
+      10563,
+      9232,
+      8763,
+      8374,
+      10152,
+      11356
+     ]
+    },
+    {
+     "nome": "Matrículas Federal",
+     "valores": [
+      2722,
+      2959,
+      3069,
+      3100,
+      3124,
+      3132,
+      3276,
+      3563,
+      2648,
+      2697,
+      2549
+     ]
+    },
+    {
+     "nome": "Matrículas Estadual",
+     "valores": [
+      597,
+      585,
+      504,
+      502,
+      504,
+      514,
+      430,
+      417,
+      417,
+      342,
+      344
+     ]
+    },
+    {
+     "nome": "Matrículas Especial",
+     "valores": [
+      131,
+      127,
+      131,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "observacoes": [
+    "De 2015 a 2024 a soma das categorias confere exatamente com o total de matrículas do Gráfico 19.",
+    "Em 2014 a soma (7.947) fica 9.663 abaixo do total do Gráfico 19 (17.610); o valor 599 de 'Privada sem fins lucrativos' em 2014 foi mantido como está impresso."
+   ]
+  },
+  "grafico-23": {
+   "tipo": "barra",
+   "orientacao": "horizontal",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Ingressos Privada com fins lucrativos",
+     "valores": [
+      1828,
+      1879,
+      2490,
+      2844,
+      3442,
+      4121,
+      5251,
+      6912,
+      8626,
+      7895,
+      7554
+     ]
+    },
+    {
+     "nome": "Ingressos Privada sem fins lucrativos",
+     "valores": [
+      343,
+      3622,
+      3391,
+      3639,
+      3890,
+      3667,
+      2823,
+      2557,
+      2399,
+      4498,
+      4140
+     ]
+    },
+    {
+     "nome": "Ingressos Federal",
+     "valores": [
+      971,
+      1040,
+      1117,
+      942,
+      953,
+      942,
+      950,
+      903,
+      946,
+      902,
+      804
+     ]
+    },
+    {
+     "nome": "Ingressos Estadual",
+     "valores": [
+      129,
+      134,
+      108,
+      123,
+      116,
+      103,
+      107,
+      135,
+      120,
+      127,
+      124
+     ]
+    },
+    {
+     "nome": "Ingressos Especial",
+     "valores": [
+      3512,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "observacoes": [
+    "A soma das categorias confere com o total de ingressos do Gráfico 20, exceto 2015 (6.675 × 6.735) e 2016 (7.106 × 7.111); valores mantidos como impressos (conferidos com zoom)."
+   ]
+  },
+  "grafico-24": {
+   "tipo": "barra",
+   "orientacao": "horizontal",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Concluintes Privada com fins lucrativos",
+     "valores": [
+      550,
+      605,
+      693,
+      825,
+      1044,
+      1144,
+      1297,
+      1378,
+      1103,
+      1545,
+      1469
+     ]
+    },
+    {
+     "nome": "Concluintes Privada sem fins lucrativos",
+     "valores": [
+      117,
+      1458,
+      1469,
+      1665,
+      1720,
+      1807,
+      1361,
+      1245,
+      1177,
+      1358,
+      1264
+     ]
+    },
+    {
+     "nome": "Concluintes Federal",
+     "valores": [
+      134,
+      219,
+      258,
+      285,
+      297,
+      288,
+      257,
+      313,
+      258,
+      327,
+      264
+     ]
+    },
+    {
+     "nome": "Concluintes Estadual",
+     "valores": [
+      83,
+      118,
+      67,
+      66,
+      59,
+      107,
+      61,
+      33,
+      108,
+      58,
+      71
+     ]
+    },
+    {
+     "nome": "Concluintes Especial",
+     "valores": [
+      1337,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "observacoes": [
+    "A soma das categorias confere em todos os anos com o total de concluintes do Gráfico 27 (masculino + feminino)."
+   ]
+  },
+  "grafico-25": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Matrículas Masculino",
+     "valores": [
+      7409,
+      7766,
+      7858,
+      8044,
+      8459,
+      9091,
+      9020,
+      9325,
+      9295,
+      9905,
+      9908
+     ]
+    },
+    {
+     "nome": "Matrículas Feminino",
+     "valores": [
+      10201,
+      10466,
+      10647,
+      10965,
+      11612,
+      12457,
+      12961,
+      14075,
+      14624,
+      16077,
+      16420
+     ]
+    }
+   ],
+   "observacoes": [
+    "Masculino + Feminino confere em todos os anos com o total de matrículas do Gráfico 19."
+   ]
+  },
+  "grafico-26": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Ingressos Masculino",
+     "valores": [
+      2980,
+      3023,
+      3250,
+      3257,
+      3563,
+      3878,
+      3777,
+      3975,
+      4676,
+      5098,
+      4771
+     ]
+    },
+    {
+     "nome": "Ingressos Feminino",
+     "valores": [
+      3803,
+      3712,
+      3861,
+      4291,
+      4838,
+      4955,
+      5354,
+      6532,
+      7415,
+      8324,
+      7851
+     ]
+    }
+   ],
+   "observacoes": [
+    "Masculino + Feminino confere em todos os anos com o total de ingressos do Gráfico 20."
+   ]
+  },
+  "grafico-27": {
+   "tipo": "linha",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "Concluintes Masculino",
+     "valores": [
+      806,
+      857,
+      930,
+      998,
+      1191,
+      1321,
+      1153,
+      1200,
+      1046,
+      1258,
+      1197
+     ]
+    },
+    {
+     "nome": "Concluintes Feminino",
+     "valores": [
+      1415,
+      1543,
+      1566,
+      1843,
+      1929,
+      2025,
+      1823,
+      1769,
+      1600,
+      2030,
+      1871
+     ]
+    }
+   ],
+   "observacoes": [
+    "No Word este gráfico está em formato EMF; a imagem do site foi convertida para PNG."
+   ]
+  },
+  "grafico-28": {
+   "tipo": "barra",
+   "orientacao": "vertical",
+   "agrupamento": "clustered",
+   "unidade": null,
+   "categorias": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "series": [
+    {
+     "nome": "PROUNI",
+     "valores": [
+      374,
+      767,
+      871,
+      1008,
+      908,
+      758,
+      882,
+      772,
+      739,
+      689,
+      643
+     ]
+    },
+    {
+     "nome": "APOIO SOCIAL",
+     "valores": [
+      3108,
+      3438,
+      3636,
+      4112,
+      3760,
+      3053,
+      1774,
+      2186,
+      2431,
+      909,
+      1004
+     ]
+    },
+    {
+     "nome": "FIES",
+     "valores": [
+      3823,
+      1296,
+      4377,
+      4216,
+      5091,
+      4860,
+      6529,
+      5555,
+      5262,
+      5134,
+      4823
+     ]
+    }
+   ],
+   "observacoes": []
+  }
+ }
+}

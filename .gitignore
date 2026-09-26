@@ -1,0 +1,12 @@
+# Material de origem da Fase 2 (planilhas, banco de dados INEP) — não faz parte do código do site,
+# é grande demais para o GitHub e não deve ser publicado. Os dados úteis já foram extraídos para
+# frontend/src/data/*.json pelos scripts em Dados/_converter_*.py.
+Dados/
+
+# Documento original da dissertação — pessoal, não é código do site (mesmo arquivo em dois lugares).
+DISSERTAÇÃO_ANA.docx
+docs/dissertacao.docx
+
+# Lixo comum de SO/editor
+.DS_Store
+Thumbs.db

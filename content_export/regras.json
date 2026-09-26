@@ -1,0 +1,18 @@
+{
+  "_comentario": "Padrões conferidos no texto real (extract_docx.py --relatorio, 2026-09-26): citações longas com recuo de 4 cm e 5 epígrafes com linha de autoria. Não há quebras Shift+Enter nem o padrão '(a) Título:'.",
+  "aplicar": {
+    "citacao_longa": true,
+    "epigrafe": true,
+    "enum_titulo_negrito": false
+  },
+  "meta": {
+    "titulo": "A educação superior no contexto do Plano Nacional de Educação: análise das dinâmicas no município de Chapecó (2014-2024)",
+    "autora": "Ana Cristina da Silva",
+    "ano": 2025,
+    "programa": "Programa de Pós-Graduação em Educação",
+    "linha": "Políticas Educacionais",
+    "instituicao": "Universidade Federal da Fronteira Sul (UFFS)",
+    "orientador": "Prof. Dr. Joviles Vitório Trevisol",
+    "defesa": "16/12/2025"
+  }
+}
