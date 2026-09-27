@@ -140,7 +140,54 @@ th { background: #f0ede6; }
 .capitulo p.epigrafe-autor { text-align: right; font-size: .9em; margin: .3rem 0 2rem; }
 .capitulo p.citacao-longa { margin-top: 1rem; margin-bottom: 1rem; }
 .capitulo h1 { text-transform: none; }
+.nota-ref { position: relative; }
 .nota-ref a { text-decoration: none; font-size: .75em; padding: 0 .1em; }
+.nota-balao {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%) translateY(4px);
+  width: max-content;
+  max-width: min(90vw, 360px);
+  max-height: 220px;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  text-align: left;
+  background: var(--destaque-forte);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+  padding: .6rem .75rem;
+  border-radius: 8px;
+  box-shadow: var(--sombra);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .12s ease, transform .12s ease;
+  z-index: 20;
+}
+.nota-balao::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--destaque-forte);
+}
+.nota-ref:hover .nota-balao,
+.nota-ref:focus-within .nota-balao {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+@media (max-width: 520px) {
+  .nota-balao { left: 0; transform: translateX(0) translateY(4px); }
+  .nota-ref:hover .nota-balao, .nota-ref:focus-within .nota-balao { transform: translateX(0) translateY(0); }
+}
 .notas { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--borda); font-family: var(--sans); font-size: .85rem; color: var(--suave); }
 .notas h2 { font-size: 1rem; }
 .notas li { margin: .4rem 0; scroll-margin-top: 4rem; }
@@ -264,6 +311,57 @@ th { background: #f0ede6; }
 @media (max-width: 520px) {
   .citacao-balao { max-width: min(80vw, 320px); left: 0; transform: translateX(0) translateY(4px); }
   .citacao:hover .citacao-balao, .citacao:focus .citacao-balao, .citacao:focus-within .citacao-balao { transform: translateX(0) translateY(0); }
+}
+
+/* ---- Siglas com significado em tooltip (dados da Lista de abreviaturas e siglas) ---- */
+.sigla-termo {
+  position: relative;
+  border-bottom: 1px dotted var(--acento);
+  cursor: help;
+}
+.sigla-balao {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%) translateY(4px);
+  width: max-content;
+  max-width: min(90vw, 320px);
+  overflow-wrap: break-word;
+  background: var(--acento);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+  padding: .6rem .75rem;
+  border-radius: 8px;
+  box-shadow: var(--sombra);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .12s ease, transform .12s ease;
+  z-index: 20;
+}
+.sigla-balao::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--acento);
+}
+.sigla-termo:hover .sigla-balao,
+.sigla-termo:focus .sigla-balao,
+.sigla-termo:focus-within .sigla-balao {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+@media (max-width: 520px) {
+  .sigla-balao { left: 0; transform: translateX(0) translateY(4px); }
+  .sigla-termo:hover .sigla-balao, .sigla-termo:focus .sigla-balao, .sigla-termo:focus-within .sigla-balao { transform: translateX(0) translateY(0); }
 }
 
 /* ---- Painel interativo (mini data warehouse) ---- */

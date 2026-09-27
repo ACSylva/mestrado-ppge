@@ -1,5 +1,5 @@
 import data from '../data/site-content.json'
-import type { Grafico, Secao, SiteContent } from './types'
+import type { Bloco, Grafico, Secao, SiteContent } from './types'
 
 const site = data as unknown as SiteContent
 
@@ -21,6 +21,12 @@ export function vizinhos(slug: string) {
 
 const notas = new Map((site.notas ?? []).map((n) => [n.numero, n.texto]))
 export const getNota = (numero: number) => notas.get(numero) ?? ''
+
+// Lista de abreviaturas e siglas (seção pré-textual): usada para o tooltip da sigla no corpo do texto.
+export const siglas: { sigla: string; significado: string }[] = preTextual
+  .flatMap((s) => s.blocos)
+  .filter((b): b is Extract<Bloco, { tipo: 'sigla' }> => b.tipo === 'sigla' && !!b.significado)
+  .map((b) => ({ sigla: b.sigla, significado: b.significado }))
 
 export const tituloCompleto = (s: Secao) => (s.numero ? `${s.numero} ${s.titulo}` : s.titulo)
 

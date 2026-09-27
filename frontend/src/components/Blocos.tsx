@@ -1,20 +1,29 @@
 import { useState } from 'react'
-import { getGrafico } from '../lib/content'
+import { getGrafico, getNota } from '../lib/content'
 import type { Bloco, Grafico, Rotulo, Segmento } from '../lib/types'
 import GraficoView from './Grafico'
 import { TextoRico } from './TextoRico'
+
+function NotaRef({ numero }: { numero: number }) {
+  const texto = getNota(numero)
+  return (
+    <sup className="nota-ref" id={`ref-${numero}`}>
+      <a href={`#nota-${numero}`} onClick={(e) => { e.preventDefault(); document.getElementById(`nota-${numero}`)?.scrollIntoView({ behavior: 'smooth' }) }}>{numero}</a>
+      {texto && (
+        <span className="nota-balao" role="tooltip">
+          {texto}
+        </span>
+      )}
+    </sup>
+  )
+}
 
 function Segmentos({ segs }: { segs: Segmento[] }) {
   return (
     <>
       {segs.map((s, i) => {
         if ('br' in s) return <br key={i} />
-        if ('nota' in s)
-          return (
-            <sup key={i} className="nota-ref" id={`ref-${s.nota}`}>
-              <a href={`#nota-${s.nota}`} onClick={(e) => { e.preventDefault(); document.getElementById(`nota-${s.nota}`)?.scrollIntoView({ behavior: 'smooth' }) }}>{s.nota}</a>
-            </sup>
-          )
+        if ('nota' in s) return <NotaRef key={i} numero={s.nota} />
         let el: React.ReactNode = <TextoRico texto={s.t} />
         if (s.va === 'sup') el = <sup>{el}</sup>
         if (s.va === 'sub') el = <sub>{el}</sub>
