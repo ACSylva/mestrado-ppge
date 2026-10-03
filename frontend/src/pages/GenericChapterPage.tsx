@@ -4,6 +4,17 @@ import { Blocos } from '../components/Blocos'
 import { getCapitulo, getNota, paginas, tituloCompleto, vizinhos } from '../lib/content'
 import type { Bloco, Secao } from '../lib/types'
 
+// Item do menu lateral: número (se houver) à parte do título, para o CSS poder deixar
+// o título em caixa baixa com só a primeira letra maiúscula sem afetar o número.
+function MenuTitulo({ secao }: { secao: Secao }) {
+  return (
+    <>
+      {secao.numero && <span className="lateral-numero">{secao.numero}</span>}
+      <span className="lateral-titulo">{secao.titulo}</span>
+    </>
+  )
+}
+
 // Com HashRouter o "#" já é da rota; a seção vai em ?secao=slug.
 function SecaoView({ secao }: { secao: Secao }) {
   const H = `h${Math.min(secao.nivel, 6)}` as 'h2'
@@ -24,7 +35,7 @@ function Indice({ secoes, cap }: { secoes: Secao[]; cap: string }) {
     <ul>
       {secoes.map((s) => (
         <li key={s.slug}>
-          <Link to={`/dissertacao/${cap}?secao=${s.slug}`}>{tituloCompleto(s)}</Link>
+          <Link to={`/dissertacao/${cap}?secao=${s.slug}`}><MenuTitulo secao={s} /></Link>
           <Indice secoes={s.secoes} cap={cap} />
         </li>
       ))}
@@ -62,7 +73,7 @@ export default function GenericChapterPage() {
         <ol>
           {paginas.map((c) => (
             <li key={c.slug}>
-              <NavLink to={`/dissertacao/${c.slug}`}>{tituloCompleto(c)}</NavLink>
+              <NavLink to={`/dissertacao/${c.slug}`}><MenuTitulo secao={c} /></NavLink>
               {c.slug === cap.slug && <Indice secoes={c.secoes} cap={c.slug} />}
             </li>
           ))}
