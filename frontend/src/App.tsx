@@ -7,6 +7,8 @@ import GenericChapterPage from './pages/GenericChapterPage'
 import Pesquisa from './pages/Pesquisa'
 import Painel from './pages/Painel'
 import ProducaoAcademica from './pages/ProducaoAcademica'
+import Forum from './pages/Forum'
+import ForumTopico from './pages/ForumTopico'
 
 export default function App() {
   const primeiro = capitulos[0]
@@ -22,6 +24,7 @@ export default function App() {
           <NavLink to="/pesquisa">Pesquisa</NavLink>
           <NavLink to="/painel">Painel</NavLink>
           <NavLink to="/producao-academica">Produção Acadêmica</NavLink>
+          <NavLink to="/forum">Fórum de Discussões</NavLink>
         </nav>
       </header>
       <Routes>
@@ -30,6 +33,8 @@ export default function App() {
         <Route path="/pesquisa" element={<Pesquisa />} />
         <Route path="/painel" element={<Painel />} />
         <Route path="/producao-academica" element={<ProducaoAcademica />} />
+        <Route path="/forum" element={<Forum />} />
+        <Route path="/forum/:slug" element={<ForumTopico />} />
         <Route path="*" element={<Inicio />} />
       </Routes>
       <Rodape />
