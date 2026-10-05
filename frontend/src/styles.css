@@ -35,20 +35,20 @@ a { color: var(--destaque); }
 .topo nav a.active { color: var(--destaque); border-color: var(--destaque); font-weight: 600; }
 
 .inicio { position: relative; max-width: 800px; margin: 0 auto; padding: 0 1.25rem 3rem; }
-/* Foto fixa atrás de toda a página inicial (não só o hero): o degradê deixa o alto mais vívido
-   e assenta num tom quase sólido — mas nunca 100% opaco — para a foto seguir perceptível no
-   resto da página sem atrapalhar a leitura dos cards (resumo, sumário) que ficam por cima. */
-.inicio::before {
+/* Fotos de Chapecó fixas atrás de toda a página inicial (não só o hero), alternando em crossfade
+   (ver FundoInicio em Inicio.tsx). background-size: cover deixa cada uma se adaptar a qualquer
+   largura de tela sem distorcer. O degradê é uma camada própria por cima de todas as fotos: bem
+   leve, só o suficiente para o texto escuro continuar legível sem lavar a foto. */
+.inicio-fundo { position: fixed; inset: 0; z-index: -1; }
+.inicio-fundo-img {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center 65%; background-repeat: no-repeat;
+  opacity: 0; transition: opacity 1.5s ease;
+}
+.inicio-fundo::after {
   content: '';
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background-image:
-    linear-gradient(180deg, rgba(250, 248, 243, .35) 0%, rgba(250, 248, 243, .88) 60%, rgba(250, 248, 243, .94) 100%),
-    url('/assets/media/foto-chapeco.png');
-  background-size: cover;
-  background-position: center 65%;
-  background-repeat: no-repeat;
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(250, 248, 243, .12) 0%, rgba(250, 248, 243, .45) 55%, rgba(250, 248, 243, .55) 100%);
 }
 .hero { padding: 6.5rem 0 3rem; }
 .inicio h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(1.9rem, 4vw, 2.75rem); line-height: 1.22; margin: .5rem 0 0; color: var(--destaque-forte); }

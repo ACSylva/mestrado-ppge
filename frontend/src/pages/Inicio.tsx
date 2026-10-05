@@ -1,6 +1,42 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Blocos } from '../components/Blocos'
 import { capitulos, meta, preTextual } from '../lib/content'
+
+// Fotos de Chapecó que se alternam atrás de toda a página inicial (ver .inicio-fundo no CSS).
+const FUNDO_IMAGENS = [
+  '/assets/media/foto-chapeco.png',
+  '/assets/media/foto-chapeco-historica-1960.jpg',
+  '/assets/media/foto-chapeco-matriz-dia.jpg',
+  '/assets/media/foto-chapeco-skyline-noite.jpg',
+  '/assets/media/foto-chapeco-matriz-centro.jpg',
+  '/assets/media/foto-unochapeco.webp',
+  '/assets/media/foto-unoesc.jpg',
+  '/assets/media/foto-uffs.jpg',
+  '/assets/media/foto-ifsc.jpg',
+]
+
+function FundoInicio() {
+  const [indice, setIndice] = useState(0)
+
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const id = setInterval(() => setIndice((i) => (i + 1) % FUNDO_IMAGENS.length), 6000)
+    return () => clearInterval(id)
+  }, [])
+
+  return (
+    <div className="inicio-fundo" aria-hidden="true">
+      {FUNDO_IMAGENS.map((src, i) => (
+        <div
+          key={src}
+          className="inicio-fundo-img"
+          style={{ backgroundImage: `url(${src})`, opacity: i === indice ? 1 : 0 }}
+        />
+      ))}
+    </div>
+  )
+}
 
 export default function Inicio() {
   const resumo = preTextual.find((p) => p.titulo.toUpperCase() === 'RESUMO')
@@ -14,6 +50,7 @@ export default function Inicio() {
 
   return (
     <main className="inicio">
+      <FundoInicio />
       <section className="hero">
         <p className="sobretitulo">
           <span className="ponto" aria-hidden="true" />
