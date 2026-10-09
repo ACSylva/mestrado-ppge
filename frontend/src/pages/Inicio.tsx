@@ -4,16 +4,20 @@ import { Blocos } from '../components/Blocos'
 import { capitulos, meta, preTextual } from '../lib/content'
 
 // Fotos de Chapecó que se alternam atrás de toda a página inicial (ver .inicio-fundo no CSS).
+// Caminhos relativos (sem "/" inicial): o site é publicado numa subpasta do GitHub Pages
+// (acsylva.github.io/mestrado-ppge/), então um caminho absoluto ("/assets/...") resolveria para
+// a raiz do domínio e quebraria as imagens. Com HashRouter a URL "de verdade" (antes do #) nunca
+// muda entre páginas, então o caminho relativo funciona em qualquer rota.
 const FUNDO_IMAGENS = [
-  '/assets/media/foto-chapeco.png',
-  '/assets/media/foto-chapeco-historica-1960.jpg',
-  '/assets/media/foto-chapeco-matriz-dia.jpg',
-  '/assets/media/foto-chapeco-skyline-noite.jpg',
-  '/assets/media/foto-chapeco-matriz-centro.jpg',
-  '/assets/media/foto-unochapeco.webp',
-  '/assets/media/foto-unoesc.jpg',
-  '/assets/media/foto-uffs.jpg',
-  '/assets/media/foto-ifsc.jpg',
+  'assets/media/foto-chapeco.png',
+  'assets/media/foto-chapeco-historica-1960.jpg',
+  'assets/media/foto-chapeco-matriz-dia.jpg',
+  'assets/media/foto-chapeco-skyline-noite.jpg',
+  'assets/media/foto-chapeco-matriz-centro.jpg',
+  'assets/media/foto-unochapeco.webp',
+  'assets/media/foto-unoesc.jpg',
+  'assets/media/foto-uffs.jpg',
+  'assets/media/foto-ifsc.jpg',
 ]
 
 function FundoInicio() {
